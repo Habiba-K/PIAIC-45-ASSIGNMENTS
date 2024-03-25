@@ -1,6 +1,6 @@
 // print the number of people that invited for dinner through array
 
-const GuestList: string[] = ["Nabiha","Aniza","Sonia", "Muniba", "Aaish","Zubia"];
+let GuestList: string[] = ["Nabiha","Aniza","Sonia", "Muniba", "Aaish","Zubia"];
 let count = 0; 
 while(count<GuestList.length){
     count++
