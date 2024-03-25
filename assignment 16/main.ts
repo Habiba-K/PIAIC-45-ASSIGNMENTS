@@ -19,7 +19,7 @@ GuestList.forEach(guest => {
 
 // add guest in the beggining
 let BeginningGuest : string = "Nabiha";
-GuestList.unshift(`${BeginningGuest}`);
+GuestList.unshift(BeginningGuest);
 
 // add guest in the middle
 let midIndex = GuestList.length/2;
