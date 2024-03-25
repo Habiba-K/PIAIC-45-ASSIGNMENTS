@@ -1,9 +1,10 @@
 //  three more guests to invite to dinner.
+//Add guest in the beggining ,ending and middle
 /*Add a print statement to the end of your program informing people that you found a
 bigger dinner table.*/
 
 
-const GuestList: string[] = ["Aniza", "Maryam", "Aaish"];
+let GuestList: string[] = ["Aniza", "Maryam", "Aaish"];
 
 
 let notAttend : string = "Maryam";
