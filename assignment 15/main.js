@@ -1,7 +1,7 @@
 "use strict";
 /* Changing Guest List: You just heard that one of your guests can’t make the dinner, so you need to
 send out a new set of invitations. You’ll have to think of someone else to invite. */
-const GuestList = ["Aniza", "Maryam", "Aaish"];
+let GuestList = ["Aniza", "Maryam", "Aaish"];
 let notAttend = "Maryam";
 console.log(`${notAttend} cannot attend the dinner\n`);
 GuestList.splice(1, 1, "Muniba");
