@@ -20,13 +20,13 @@ console.log(`Reverse Alphabetical Order:\n\t${[...places].sort().reverse()}`);
 //print array in original order
 console.log(`Original Order:\n\t${places}`);
 
-//print array in reverse order without changing original list
+//print array in reverse order 
 console.log(`Reverse Order:\n\t${places.reverse()}`);
 
 //again reverse order to show that array in original order
 console.log(`Again Reverse Order:\n\t${places.reverse()}`);
 
-// stored in alphabetical order 
+// sort array in alphabetical order 
 console.log(`Stored in Alphabetical Order:\n\t${places.sort()}`);
 
 //Sort array in reverse alphabetical order
