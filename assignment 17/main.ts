@@ -1,7 +1,8 @@
 // Shrinking guest list:You just found out that your new dinner table won’t arrive in time for the dinner, and you have space for only two guests.
 //Add a new line that prints a message saying that you can invite only two people for dinner.
+//remove last two people and show empty array
 
-const GuestList: string[] = ["Nabiha","Aniza","Sonia", "Muniba", "Aaish","Zubia"];
+let GuestList: string[] = ["Nabiha","Aniza","Sonia", "Muniba", "Aaish","Zubia"];
 console.log("\n For limited seats, I invite only two people for dinner.\n");
 
 // Remove guests from your list one at a time until only two names remain in your list.
