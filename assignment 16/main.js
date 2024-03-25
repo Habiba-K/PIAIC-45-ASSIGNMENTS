@@ -1,8 +1,9 @@
 "use strict";
 //  three more guests to invite to dinner.
+//Add guest in the beggining ,ending and middle
 /*Add a print statement to the end of your program informing people that you found a
 bigger dinner table.*/
-const GuestList = ["Aniza", "Maryam", "Aaish"];
+let GuestList = ["Aniza", "Maryam", "Aaish"];
 let notAttend = "Maryam";
 console.log(`${notAttend} cannot attend the dinner\n`);
 GuestList.splice(1, 1, "Muniba");
@@ -11,7 +12,7 @@ GuestList.forEach(guest => {
 });
 // add guest in the beggining
 let BeginningGuest = "Nabiha";
-GuestList.unshift(`${BeginningGuest}`);
+GuestList.unshift(BeginningGuest);
 // add guest in the middle
 let midIndex = GuestList.length / 2;
 GuestList.splice(midIndex, 0, "Sonia");
